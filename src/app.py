@@ -10,9 +10,6 @@ def index():
     username = os.getenv('USER')
     email = os.getenv('EMAIL')
     password = os.getenv('PASSWORD')
-
-    print(username, email, password)
-
     return f'<h1>Mi primera APP Flask deployeada en render.<br>{username}<br>{email}<br>{password}</h1>'
 
 
